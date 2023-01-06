@@ -13,7 +13,7 @@ span{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px 50px;
 }
 nav li{
     margin-left: 50px;
@@ -33,10 +33,13 @@ nav ul{
     border: 0;
     padding: 18px 35px;
 }
+.image{
+    margin-left: 550px;
+}
 .banner{
     display: flex;
     align-items: center;
-    margin: 0px 200px;
+    margin: 0px 100px 0px 200px;
 }
 .banner-title{
     font-weight: 700;
@@ -52,4 +55,65 @@ nav ul{
     margin-bottom: 20px;
     font-size: 18px;
     color:  #757575;
+}
+.header{
+    background-color:  #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-position:bottom right, left;
+    background-repeat: no-repeat;
+}
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    
+}
+.about{
+    /* margin-top: 830px; */
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    /* border: solid; */
+    /* padding: 100px 120px; */
+
+} 
+
+/* main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+} */
+/* .about{
+    max-width: 1140px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+} */
+.section-title{
+   
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.about .info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
